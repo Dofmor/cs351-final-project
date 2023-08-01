@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Daniel's Website</title>
+        <link rel="stylesheet" href="resume.css">
+    </head>
+
+    <body>
+
+        <div class="container">
+        <header>
+            <nav>
+                <ul>
+                    <li> <button style="background-color: #6d5d6e;" onclick="myFunction()">Toggle dark mode</button></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="./resume.html">Resume</a></li>
+                    <li><a href="./trails.html">Trails</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <div class="resume-container">
+                <div class="grid1">
+                    <h1>Daniel Morales</h1>
+                    <p>Hayward, CA | (123) 456-7890 | NotARealEmail@email.com </p>
+                </div>
+                <div class="grid2">
+                    <h2>Skills</h2>
+                    <h3>Technical Skills</h3>
+                    <ul>
+                        <li>Java</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>C/C++</li>
+                    </ul>
+                    <h3>Soft Skills</h3>
+                    <ul>
+                        <li>Fast Learner</li>
+                        <li>Problem Solving</li>
+                        <li>Native English/Native Spanish</li>
+                    </ul>
+                </div>
+                <div class="grid3">
+                    <h2>Education</h2>
+                    <h3>Bachelor of Science in Computer Science</h3>
+                    <p>California State University, East Bay</p>
+
+                    <h3>Associates in Transfer in Computer Science</h3>
+                    <p></p>De Anza College</p>
+
+                    <h2>Experience</h2>
+                    <h3>Undergrad Researcher - Internship</h3>
+                    <p>California State University, East Bag</p>
+                    <ul>
+                        <li>Secured and modeled police data</li>
+                        <li>Overhault software from prior research groups</li>
+                        <li>Analyzed research data</li>
+                    </ul>
+                </div>
+            </div>
+        </main>
+
+        <footer></footer>
+        </div>
+        <script>
+            function myFunction() {
+               var element = document.body;
+               element.classList.toggle("dark-mode");
+            }
+            </script>
+    </body>
+</html>

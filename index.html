@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Daniel's Website</title>
+        <link rel="stylesheet" href="homepage.css">
+    </head>
+
+    <body>
+
+        <div class="container">
+        <header>
+            <nav>
+                <ul>
+                    <li> <button style="background-color: #6d5d6e;" onclick="myFunction()">Toggle dark mode</button></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="./resume.html">Resume</a></li>
+                    <li><a href="./trails.html">Trails</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <aside>
+                <div class="photo-container">
+                    <div class="profile-picture photo"></div>
+                </div>
+                <div class="info-container">
+                    <h2>Daniel Ochoa Morales</h2>
+                    <p>Student at <span class="csueb">California State University, East Bay</span></p>
+                    <p>Hayward, California, United States</p>
+                    <p>Email: NotARealEmail@email.com</p>
+                    <p>Phone: (123)456-7890</p>
+
+                </div>
+
+            </aside>
+            <section>
+                <div id="introductions">
+                    <h1>About Daniel</h1>
+                    <p>Daniel is a bright and enthusiastic computer science student at <span class="csueb">California State University, East Bay</span>. He is passionate about technology and is always looking for ways to expand his knowledge and skills in the field. Daniel is a diligent student who takes his studies seriously, and his commitment to learning is evident in his excellent grades and his willingness to go above and beyond in his coursework.</p>
+                    <p>He is currently taking a class in web development. He finds the class to be both challenging and rewarding, as he is constantly learning new coding languages and techniques to create visually appealing and functional websites. Daniel enjoys the hands-on nature of the class, as it allows him to apply the concepts he learns in real-world scenarios. He is also excited about the prospect of using his new skills to build his own personal website and potentially pursue web development as a career.</p>
+                    <p>Daniel is an avid hiker who loves to explore new trails and immerse himself in nature. He finds peace and tranquility in the great outdoors, and enjoys the physical and mental challenge of hiking up steep inclines and rocky terrain. Whether it's a leisurely stroll or a more challenging hike, Daniel always finds joy in spending time outdoors and taking in the beautiful scenery. Hiking is not only a way for Daniel to stay physically fit and healthy, but also a way to recharge and clear his mind from the stress of his studies. Overall, Daniel's love for hiking is an important part of his life and allows him to connect with nature and stay grounded.</p>
+                </div>
+            </section>
+        </main>
+
+        <footer></footer>
+        </div>
+        <script>
+            function myFunction() {
+               var element = document.body;
+               element.classList.toggle("dark-mode");
+            }
+            </script>
+    </body>
+</html>

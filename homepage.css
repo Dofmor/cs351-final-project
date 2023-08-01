@@ -1,0 +1,147 @@
+body {
+    background-color: #f4eee0;
+    color: #6d5d6e;
+    font-family: Arial, sans-serif;
+}
+
+
+.container {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 10px;
+    border-style: solid;
+    border-color: #393646;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+}
+header,
+footer {
+    background-color: #393646;
+    color: #f4eee0;
+    
+}
+
+header {
+    padding: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display:flex;
+    justify-content: flex-end;
+}
+
+nav ul li {
+    margin-left: 10px;
+}
+
+nav ul li a {
+    color:#f4eee0;
+    text-decoration: none;
+}
+
+main {
+    flex: 3;
+    padding: 10px;
+    display: flex;
+}
+
+
+aside {
+    flex: 1;
+    border-style: solid;
+    border-color: #6d5d6e;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.photo-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+
+}
+.profile-picture {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: #6d5d6e;
+
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.photo {
+    background-image: url(./images/profile.jpg);
+}
+
+.info-container {
+    text-align: center;
+}
+section {
+    flex: 4;
+    text-align: center;
+}
+
+
+footer {
+    height: 20px;
+    width: 100%;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+#introductions {
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 25px;
+    border-style: solid;
+    border-color: #6d5d6e;
+
+}
+.csueb {
+    color:#d50032;
+}
+
+.dark-mode {
+    background-color: #393646;
+    color: #EEEEEE;
+}
+
+@media only screen and (max-width:800px),
+            screen and (max-height:600px){
+
+
+                .container {
+                    border-style: none;
+                }
+
+                main {
+                    flex: 3;
+                    padding: 10px;
+                    display: flex;
+                    flex-direction: column;
+                }
+                #introductions {
+                    margin-left: 0;
+                    margin-right: 0;
+                    border-style:none;
+                }
+                footer {
+                    height: 0;
+                    width: 0;
+                }
+    
+}
+    
+

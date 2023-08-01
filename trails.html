@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Daniel's Website</title>
+        <link rel="stylesheet" href="trails.css">
+    </head>
+
+    <body>
+
+        <div class="container">
+        <header>
+            <nav>
+                <ul>
+                    <li> <button style="background-color: #6d5d6e;" onclick="myFunction()">Toggle dark mode</button></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="./resume.html">Resume</a></li>
+                    <li><a href="./trails.html">Trails</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <div class="trail-container">
+                <div class="grid1">
+                    <h1>Daniel's Frequent Trails!</h1>
+                </div>
+                <div class="grid2 photo-container">
+                    <div class="park-picture santa-teresa"></div>
+                </div>
+                <div class="grid3">
+                    <h2>Santa Teresa County Park</h2>
+                    <p>This diverse 1,673 acre park, rich in history, offers spectacular views from its trails above the Almaden and Santa Clara Valleys. The secluded upland valleys of the park provide a quiet interlude for exploring the natural environment minutes away from the surrounding developed areas.</p>
+                </div>
+                <div class="grid4">
+                    <h2>Hayward Regional Shoreline</h2>
+                    <p>Hayward Marsh, completed in 1985, is a 145-acre fresh and brackish water marsh and is somewhat unusual in that it relies on secondary treated effluent as the freshwater source. The marsh is made up of five managed ponds and has 15 islands that are utilized by many species of nesting birds. Flow through the five basins is controlled by a series of weirs, valves, and channels, and allows for great flexibility in operation, management, and biological research.</p>
+                </div>
+                <div class="grid5 photo-container">
+                    <div class="park-picture hayward"></div>
+                </div>
+                <div class="grid6"> <h2>Rancho San Antonio Preserve</h2>
+                    <p>Rancho San Antonio County Park & Open Space Preserve offers visitors a unique experience with a sampling of diverse environments, interesting cultural history and a variety of activities. The area features over 25 miles of trail throughout the 3,988-acre open space preserve and adjoining 165-acre county park.</p></div>
+                <div class="grid7 photo-container">
+                    <div class="park-picture rancho"></div>
+                </div>
+            </div>
+        </main>
+
+        <footer></footer>
+        <script>
+            function myFunction() {
+               var element = document.body;
+               element.classList.toggle("dark-mode");
+            }
+            </script>
+    </body>
+</html>
